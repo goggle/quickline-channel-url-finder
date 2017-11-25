@@ -23,6 +23,6 @@ setup(name='quickline-channel-url-finder',
           'Programming Language :: Python :: 3.5'
           'Programming Language :: Python :: 3.6',
       ],
-      install_requires=['fuzzywuzzy'],
+      install_requires=['fuzzywuzzy[speedup]'],
       python_requires='>=3',
       )
