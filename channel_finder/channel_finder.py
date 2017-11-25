@@ -25,7 +25,7 @@ CHANNEL_LIST = [
     ["more4", "more4", "More 4"],
     ["s4c", "s4c", "S4C"],
     ["srf1", "sf-1", "SRF 1"],
-    ["srf_zwei", "sf-2", "SRF zwei"],
+    ["srf_zwei", "sf-2", "SRF zwei", "srf2"],
     ["srf_info", "sf-info", "SRF info"],
     ["3plus", "3plus", "3Plus"],
     ["4plus", "4plus", "4Plus"],
