@@ -1,5 +1,5 @@
 # quickline-channel-url-finder
-`quickline-channel-url-finder` is a tool to extract the URL of a TV channel from the [Quickline mobile TV service](https://mobiltv.quickline.com/), only by giving a name that resembles the name of the TV channel. It uses the [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy) to achieve the fuzzy string matching.
+`quickline-channel-url-finder` is a tool to extract the URL of a TV channel from the [Quickline mobile TV service](https://mobiltv.quickline.com/), only by giving a name that resembles the name of the TV channel. It uses the python library [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy) to achieve the fuzzy string matching.
 
 ## Installation
 To install `quickline-channel-url-finder` you can download the latest release and run
