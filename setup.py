@@ -2,10 +2,10 @@
 
 from setuptools import setup
 
-setup(name='quickline-channel-url-finder',
-      version='1.0.0',
-      description='Extract a TV channel URL from the Quickline mobile TV service.',
-      url='https://github.com/goggle/quickline-channel-url-finder',
+setup(name='zattoo-channel-url-finder',
+      version='1.1.0',
+      description='Extract a TV channel URL from Zattoo.',
+      url='https://github.com/goggle/zattoo-channel-url-finder',
       author='Alexander Seiler',
       author_email='seileralex@gmail.com',
       license='GPL',
@@ -13,7 +13,7 @@ setup(name='quickline-channel-url-finder',
       package_dir={'channel_finder': 'channel_finder'},
       entry_points={
           'console_scripts': [
-              'quickline-channel-url-finder=channel_finder.channel_finder:main',
+              'zattoo-channel-url-finder=channel_finder.channel_finder:main',
           ],
       },
       classifiers=[
