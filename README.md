@@ -1,25 +1,23 @@
-# quickline-channel-url-finder
-`quickline-channel-url-finder` is a tool to extract the URL of a TV channel from the [Quickline mobile TV service](https://mobiltv.quickline.com/), only by giving a name that resembles the name of the TV channel. It uses the python library [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy) to achieve the fuzzy string matching.
+# zattoo-channel-url-finder
+`zattoo-channel-url-finder` is a tool to extract the URL of a TV channel from the [Zattoo](https://zattoo.com/), only by giving a name that resembles the name of the TV channel. It uses the python library [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy) to achieve the fuzzy string matching.
 
 ## Installation
-To install `quickline-channel-url-finder` you can download the latest release and run
+To install `zattoo-channel-url-finder` you can download the latest release and run
 ```
-pip install quickline-channel-url-finder-1.0.0.tar.gz
+pip install zattoo-channel-url-finder-x.y.z.tar.gz
 ```
 
 ## Usage
-Let's say we want to get the URL of the TV channel ARTE. We use `quickline-channel-url-finder` with
+Let's say we want to get the URL of the TV channel ARTE. We use `zattoo-channel-url-finder` with
 ```
-quickline-channel-url-finder arte
+zattoo-channel-url-finder arte
 ```
 and get
 ```
-https://mobiltv.quickline.com/watch/DE_arte
+https://zattoo.com/watch/DE_arte
 ```
 as the result.
 
-### For Zattoo users
-Since the Quickline mobile TV service uses Zattoo in the background, this tool might be usefull for Zattoo users too. Just replace `mobiltv.quickline.com` with `zattoo.com`. It's possible that the channel list for Zattoo users is slightly different.
 
 ## Generation of the channel list
 I have used the following procedure to construct the list of the channel key words `CHANNEL_LIST` in `channel_finder.py`:

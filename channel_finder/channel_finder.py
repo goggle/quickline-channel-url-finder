@@ -3,7 +3,7 @@
 import sys
 from fuzzywuzzy import process
 
-HOST = 'https://mobiltv.quickline.com'
+HOST = 'https://zattoo.com'
 
 # The first element in the sublists must be the display id:
 CHANNEL_LIST = [
